@@ -164,7 +164,7 @@ class InflectorTest extends HackTest\HackTest {
   ): Container<(string, Container<string>)> {
     // see http://english-zone.com/spelling/plurals.html
     // see http://www.scribd.com/doc/3271143/List-of-100-Irregular-Plural-Nouns-in-English
-    return [
+    return vec[
       tuple('access', vec['accesses']),
       tuple('address', vec['addresses']),
       tuple('agenda', vec['agendas']),
